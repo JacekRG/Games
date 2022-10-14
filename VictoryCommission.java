@@ -9,6 +9,7 @@ public class VictoryCommission {
             System.out.println("Lucky numbers today: " + dailyLuckyNumbers.luckyNumbers);
             System.out.println("You won $ " + LotteryParameters.cashPrize);
         } else
-            System.out.println("Lucky numbers today: " + dailyLuckyNumbers.luckyNumbers + "\n Your types: " + userShots.typedNumbers + "\n Maybe next time");
+            System.out.println("Lucky numbers today: " + dailyLuckyNumbers.luckyNumbers
+                    + "\n Your types: " + userShots.typedNumbers + "\n You are the loser: D");
     }
 }
